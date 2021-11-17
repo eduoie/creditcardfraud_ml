@@ -1,0 +1,1 @@
+This Dockerfile will be used to create the image to run the notebooks. A different one optimized in size will be used for running the models
