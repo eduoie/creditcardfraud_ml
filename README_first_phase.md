@@ -2,7 +2,9 @@
 
 You can build the notebooks Docker image using `build_notebook_image.sh`, and then run it with `run_notebooks_image`
 
-Open a terminal and execute: `jupyter  notebook --no-browser --allow-root --ip="0.0.0.0"`. Open Jupyter from the log link and tinker with it.
+Check the container log and open jupyter through the link.
+
+Go to `/notebooks/Main_notebook.ipynb`
 
 ###Some useful references
 

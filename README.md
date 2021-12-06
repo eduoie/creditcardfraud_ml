@@ -14,6 +14,8 @@ From the beginning, Docker will be used to host a Conda environment, so results 
 
 Move the code to AWS and reproduce the data generation, feature engineering and model training using a diverse set of AWS services, such as available AWS ML algorithms or bring-your-own-algorithm. I will try using a smaller image (trying to minimize it and avoid using Conda) and/or use SageMaker notebooks.
 
+Will also include a data store to better reflect how a real system would work in practice.
+
 ## Third phase
 
 Deploy and serve the model in *production* (using generated data). It is yet to be determined if it will be real-time or batch; it will also depend on how costly is to run it.
@@ -24,7 +26,7 @@ Will include:
 
 - Introducing drift using the data generator. How to proceed with model monitoring and maintenance according to available AWS services is yet TBD.
 
-- Prepare a data store to better reflect how a real system would work in practice.
+- **Maybe**: Use Spark through EMR to do the data preprocessing part.
 
 
 # References and credit
